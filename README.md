@@ -1,5 +1,5 @@
 The dataset comprises 10 problem instances designed to emulate busy commercial airports operating with a single runway. 
-For reference, we examined airports that handle around 10 million passengers annually. 
+For reference, we examined airports that handle at least 10 million passengers annually. 
 
 Each problem instance name is defined using the:
 - Demand profile: pattern of flight arrival schedules throughout the considered horizon {F,P,FP,PF,PP}
