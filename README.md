@@ -1,4 +1,4 @@
-The dataset comprises 10 problem instances designed to emulate busy commercial airports operating with a single runway. 
+The dataset comprises 10 problem instances based on real data designed to emulate busy commercial airports operating with a single runway. 
 For reference, we examined airports that handle at least 10 million passengers annually. 
 
 Each problem instance name is defined using the:
@@ -27,7 +27,7 @@ SOBT/TOBT: Latest start time for idOperation based on the known SIBT/TIBT of the
 idStand: Identifier for the stand where idOperation is perfomed
 
 Traveling time instance:
-Deterministic time in minutes, required to move between two stands, with the first stand corresponding to the depot 
+Deterministic time in minutes required to move between two stands. 264 stands where the first stand corresponds to the depot 
 
 Time variability definition:
 sibt: sibt + gamma(shape = 4.8, scale = 1.4, thresh = −5)
